@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="gassensor">
+	<select id= "selectByAll" 
+		resultType="com.mycompany.myapp.dto.GasSensor">
+		select gno, gvalue, gdate from gassensor	
+	</select>
+	
+	<insert id="insert" parameterType="com.mycompany.myapp.dto.GasSensor" useGeneratedKeys="true" keyColumn="gno" keyProperty="gno" >
+		insert into gassensor(gvalue, gdate) values (#{gvalue}, now());
+	</insert>
+</mapper>

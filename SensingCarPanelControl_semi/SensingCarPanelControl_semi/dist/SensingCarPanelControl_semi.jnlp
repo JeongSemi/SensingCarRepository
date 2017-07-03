@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SensingCarPanelControl_semi.jnlp">
+  <information>
+    <title>SensingCarPanelControl_semi</title>
+    <vendor>Administrator</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SensingCarPanelControl_semi.jar" size="81933" download="eager" />
+    <jar href="lib\californium-core-1.0.5.jar" size="266993" download="eager" />
+    <jar href="lib\californium-osgi-1.0.5.jar" size="299769" download="eager" />
+    <jar href="lib\californium-proxy-1.0.5.jar" size="94052" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\element-connector-1.0.5.jar" size="35560" download="eager" />
+    <jar href="lib\httpclient-4.5.3.jar" size="747794" download="eager" />
+    <jar href="lib\httpcore-4.4.6.jar" size="323824" download="eager" />
+    <jar href="lib\httpcore-nio-4.4.6.jar" size="356644" download="eager" />
+    <jar href="lib\httpmime-4.5.3.jar" size="41029" download="eager" />
+    <jar href="lib\jcl-over-slf4j-1.7.25.jar" size="16515" download="eager" />
+    <jar href="lib\json-20170516.jar" size="57264" download="eager" />
+    <jar href="lib\log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="lib\org.eclipse.paho.client.mqttv3-1.1.1.jar" size="210097" download="eager" />
+    <jar href="lib\pi4j-core.jar" size="601948" download="eager" />
+    <jar href="lib\pi4j-device.jar" size="234537" download="eager" />
+    <jar href="lib\pi4j-gpio-extension.jar" size="96326" download="eager" />
+    <jar href="lib\scandium-1.0.5.jar" size="282155" download="eager" />
+    <jar href="lib\slf4j-api-1.7.25.jar" size="41203" download="eager" />
+    <jar href="lib\slf4j-log4j12-1.7.25.jar" size="12244" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SensingCarPanelControl_semi" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="sensingcar.SensingCarPanelControl"  name="SensingCarPanelControl_semi" />
+  <update check="always"/>
+</jnlp>
